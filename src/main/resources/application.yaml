@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: testingapp
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  datasource:
+    url: jdbc:mysql://localhost:3306/ems?useSSL=false
+    username: test
+    password: test
